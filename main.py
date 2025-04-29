@@ -1,7 +1,6 @@
-a, b = int(input()), int(input())
-counter =0
-if a <= b:
-    for i in range(a, b+1):
-        if i**3%10 == 4 or i**3%10 == 9:
-            counter += 1
-print(counter)
+total = 0
+n = int(input())
+for _ in range(n):
+    num = int(input())
+    total += num
+print(total)
