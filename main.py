@@ -1,12 +1,9 @@
-n = int(input())
-y = 0
-z = 0
-for _ in range(n):
-    x = int(input())
-    if x > y:
-        z = y
-        y = x
-    elif x > z:
-        z = x
-print(y)
-print(z)
+counter = 0
+for _ in range(10):
+    n = int(input())
+    if n % 2 == 0:
+        counter += 1
+if counter == 10:
+    print("YES")
+else:
+    print("NO")
