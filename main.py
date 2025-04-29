@@ -1,8 +1,8 @@
 import math
 
-harmonic = 0
+counter = 0
 n = int(input())
 for i in range(1, n + 1):
-    harmonic += 1 / i
-result = harmonic - math.log(n)
-print(result)
+    if (i ** 2) % 10 in {2, 5, 8}:  # Последняя цифра квадрата i
+        counter += i
+print(counter)
