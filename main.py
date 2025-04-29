@@ -1,5 +1,12 @@
 n = int(input())
-summ = 0
-for i in range(1, n + 1):
-    summ += ((-1) ** (i + 1)) * i
-print(summ)
+y = 0
+z = 0
+for _ in range(n):
+    x = int(input())
+    if x > y:
+        z = y
+        y = x
+    elif x > z:
+        z = x
+print(y)
+print(z)
