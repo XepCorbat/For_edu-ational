@@ -1,5 +1,10 @@
-from math import *
 
+
+# 7.4 - 4
+# num = int(input())
+# while num % 7 == 0:
+#     print(num)
+#     num = int(input())
 
 # 7.4 - 3
 # text = input()
@@ -107,3 +112,5 @@ from math import *
 #         if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
 #             counter += 1
 # print(counter)
+
+
